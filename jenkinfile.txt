@@ -1,0 +1,16 @@
+pipeline
+{
+
+    agent any
+    stages
+
+    {
+        stage('print a message')
+{ 
+    steps
+    { sh echo hi ,I'm-jenkins}
+
+}
+    }
+
+}
