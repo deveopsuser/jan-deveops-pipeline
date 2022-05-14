@@ -9,7 +9,7 @@ pipeline
 { 
 
     steps
-    { sh echo 'hi,I m-jenkins'}
+    { sh 'echo hi I m-jenkins'}
 }
 
     }
