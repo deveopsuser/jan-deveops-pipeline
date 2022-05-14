@@ -8,8 +8,7 @@ pipeline
         stage('print a message')
 { 
     steps
-    { sh echo hi ,I'm-jenkins}
-
+    { sh echo "hi ,I m-jenkins"}
 }
     }
 
